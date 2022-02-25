@@ -7,3 +7,5 @@ systemctl enable bind
 
 yum install postfix
 systemctl enable postfix
+
+## Create File server
