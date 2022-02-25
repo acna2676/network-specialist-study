@@ -1,0 +1,5 @@
+ignore/
+template-django.code-workspace
+django-template.code-workspace
+stack/parameters.json
+templateDjango/.env
