@@ -1,9 +1,0 @@
-[
-  { "ParameterKey": "KeyName", "ParameterValue": "template-django" },
-  { "ParameterKey": "SSHLocation", "ParameterValue": "0.0.0.0/0" },
-  { "ParameterKey": "DBMasterUserName", "ParameterValue": "root" },
-  { "ParameterKey": "DBMasterUserPassword", "ParameterValue": "password" },
-  { "ParameterKey": "EngineVersion", "ParameterValue": "8.0" },
-  { "ParameterKey": "HostedZoneName", "ParameterValue": "r-nakaishi.com." },
-  { "ParameterKey": "HostName", "ParameterValue": "account.r-nakaishi.com." }
-]

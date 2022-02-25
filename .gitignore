@@ -1,5 +1,3 @@
 ignore/
-template-django.code-workspace
-django-template.code-workspace
-stack/parameters.json
-templateDjango/.env
+network-specialist-study.code-workspace
+stack/parameter.json
