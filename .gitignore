@@ -1,3 +1,5 @@
 ignore/
 network-specialist-study.code-workspace
-stack/parameter.json
+stack/parameters.json
+stack/Route53/parameters.json
+conf/*

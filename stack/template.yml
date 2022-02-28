@@ -104,9 +104,25 @@ Resources:
           ToPort: 22
           CidrIp: !Ref SSHLocation
         - IpProtocol: tcp
-          FromPort: 8001
-          ToPort: 8001
+          FromPort: 25
+          ToPort: 25
           CidrIp: 126.75.109.221/32	
+        - IpProtocol: tcp
+          FromPort: 587
+          ToPort: 587
+          CidrIp: 126.75.109.221/32	
+        - IpProtocol: tcp
+          FromPort: 110
+          ToPort: 110
+          CidrIp: 126.75.109.221/32	
+        - IpProtocol: tcp
+          FromPort: 143
+          ToPort: 143
+          CidrIp: 126.75.109.221/32
+        - IpProtocol: icmp
+          FromPort: -1
+          ToPort: -1
+          CidrIp: 126.75.109.221/32
       Tags:
         - Key: Name
           Value: network-specialist-study

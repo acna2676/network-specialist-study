@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A sample template
+Parameters:
+  HostedZoneName:
+    Type: String
+    Default: sample.com
+  HostName:
+    Type: String
+    Default: www.sample.com
+  ElasticIP:
+    Type: String
+    Default: 0.0.0.0
+Resources:
+  # DNSHostedZone: 
+  #   Type: "AWS::Route53::HostedZone"
+  #   Properties: 
+  #     HostedZoneConfig: 
+  #       Comment: 'My hosted zone for r-nakaishi.net'
+  #     Name: !Ref HostedZoneName
+  DNSRecord:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneName: !Ref HostedZoneName
+      Name: !Ref HostName
+      Type: A
+      TTL: '300'
+      ResourceRecords:
+      - !Ref ElasticIP

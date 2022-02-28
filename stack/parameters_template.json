@@ -1,0 +1,4 @@
+[
+  { "ParameterKey": "KeyName", "ParameterValue": "network-specialist-study" },
+  { "ParameterKey": "SSHLocation", "ParameterValue": "0.0.0.0/0" }
+]
